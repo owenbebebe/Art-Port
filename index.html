@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Deploy your websites in less then 60seconds"
+    />
+    <meta property="og:title" content="Moshify..." />
+    <meta property="og:desciption" content="Moshify..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:image" content="http://moshif" />
+    <title>Moshify - Go Online for Just $9</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"
+          ><img src="Moshify/images/logo.svg" alt=""
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="Moshify/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Hosting</a></li>
+          <li class="nav__item"><a href="#">VPS</a></li>
+          <li class="nav__item"><a href="#">Domain</a></li>
+          <li class="nav__item"><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">Cloud Hosting for Pros</h1>
+          <p class="hero__tagline">
+            Deploy your websites in less than 60 seconds.
+          </p>
+          <a href="" class="btn btn--accent btn--stretched">Get Started</a>
+        </header>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              Moshify/images/resized/banner.webp   1x,
+              Moshify/images/resized/banner2x.webp 2x
+            "
+          />
+          <source
+            type="image/png"
+            srcset="
+              Moshify/images/resized/banner.png   1x,
+              Moshify/images/resized/banner2x.png 2x
+            "
+          />
+          <img
+            class="hero__image"
+            src="Moshify/images/resized/banner.png"
+            alt=""
+          />
+        </picture>
+      </div>
+    </section>
+    <!-- Domain block  -->
+    <section class="block container block-domain">
+      <header class="block__header">
+        <h2>Startying at $9 per month</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia veniam
+          dolores ex dolore, accusantium molestias.
+        </p>
+      </header>
+      <div class="input-group">
+        <!-- we can put a buttton or an icon right here to make the element infront of the text bar -->
+        <input
+          type="text"
+          class="input"
+          placeholder="Enter domain name here..."
+        />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use href="Moshify/sprite.svg#search"></use>
+          </svg>
+          Search
+        </button>
+      </div>
+      <ul class="list block-domain__prices">
+        <li><span class="badge badge--secondary">.com $9</span></li>
+        <li>.sg $10</li>
+        <li>.space $11</li>
+        <li>.info $14</li>
+        <li>.net $10</li>
+        <li>.xyz $10</li>
+      </ul>
+    </section>
+    <!-- Plan Block -->
+    <section class="block container block-plans">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">$14</span>
+              <span class="plan__billing-cycle">/month</span>
+              <span class="badge badge--secondary badge--small">10% OFF</span>
+              <span class="plan__description">East start on the cloud</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">Unlimited Bandwidth</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
+                <li class="list__item">3 GB RAM</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">$14</span>
+              <span class="plan__billing-cycle">/month</span>
+              <span class="badge badge--primary badge--small">10% OFF</span>
+              <span class="plan__description">East start on the cloud</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">Unlimited Bandwidth</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
+                <li class="list__item">3 GB RAM</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">$14</span>
+              <span class="plan__billing-cycle">/month</span>
+              <span class="badge badge--secondary badge--small">10% OFF</span>
+              <span class="plan__description">East start on the cloud</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">Unlimited Bandwidth</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
+                <li class="list__item">3 GB RAM</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feature Block -->
+    <section class="block container">
+      <header class="block__header">
+        <h2>Host on the Cloud to Keep Growing</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Exercitationem, illo?
+        </p>
+      </header>
+      <!-- First row -->
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="Moshify/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super Easy to Use</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            voluptatibus magni illo eum maiores quibusdam, molestiae molestias
+            cum rerum doloribus!
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture data-aos="zoom-in-left">
+          <source
+            type="image/webp"
+            srcset="
+              Moshify/images/resized-easy/easy.webp   1x,
+              Moshify/images/resized-easy/easy2x.webp 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              Moshify/images/resized-easy/easy.jpg   1x,
+              Moshify/images/resized-easy/easy2x.jpg 2x
+            "
+          />
+          <img class="feature__image" src="Moshify/images/easy.jpg" alt="" />
+        </picture>
+      </article>
+      <!-- Second row -->
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="Moshify/sprite.svg#computer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Simply fast websites</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            voluptatibus magni illo eum maiores quibusdam, molestiae molestias
+            cum rerum doloribus!
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              Moshify/images/resized-easy/easy.webp   1x,
+              Moshify/images/resized-easy/easy2x.webp 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              Moshify/images/resized-easy/easy.jpg   1x,
+              Moshify/images/resized-easy/easy2x.jpg 2x
+            "
+          />
+          <img class="feature__image" src="Moshify/images/easy.jpg" alt="" />
+        </picture>
+      </article>
+      <!-- Third row -->
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="Moshify/sprite.svg#settings"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">WordPress made easy</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            voluptatibus magni illo eum maiores quibusdam, molestiae molestias
+            cum rerum doloribus!
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              Moshify/images/resized-easy/easy.webp   1x,
+              Moshify/images/resized-easy/easy2x.webp 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              Moshify/images/resized-easy/easy.jpg   1x,
+              Moshify/images/resized-easy/easy2x.jpg 2x
+            "
+          />
+          <img class="feature__image" src="Moshify/images/easy.jpg" alt="" />
+        </picture>
+      </article>
+      <!-- Forth row -->
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="Moshify/sprite.svg#snap"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">24/7 Expert Support</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            voluptatibus magni illo eum maiores quibusdam, molestiae molestias
+            cum rerum doloribus!
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              Moshify/images/resized-easy/easy.webp   1x,
+              Moshify/images/resized-easy/easy2x.webp 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              Moshify/images/resized-easy/easy.jpg   1x,
+              Moshify/images/resized-easy/easy2x.jpg 2x
+            "
+          />
+          <img class="feature__image" src="Moshify/images/easy.jpg" alt="" />
+        </picture>
+      </article>
+    </section>
+    <!-- Showcase block -->
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>User-friendly Control Panel</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <picture class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="
+              Moshify/images/resized/ipad.webp   1x,
+              Moshify/images/resized/ipad2x.webp 2x
+            "
+          />
+          <source
+            type="image/png"
+            srcset="
+              Moshify/images/resized/ipad.png   1x,
+              Moshify/images/resized/ipad2x.png 2x
+            "
+          />
+          <img src="Moshify/images/resized/ipad.png" alt="A picture of ipad" />
+        </picture>
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="Moshify/sprite.svg#tick"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Easy Start & Managed Updates</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dignissimos illum magnam cum blanditiis explicabo eligendi quo
+                  fugit sed distinctio nostrum?
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="Moshify/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Staging, Git & WP-CLI</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dignissimos illum magnam cum blanditiis explicabo eligendi quo
+                  fugit sed distinctio nostrum?
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="Moshify/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Dynamic Caching & More</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dignissimos illum magnam cum blanditiis explicabo eligendi quo
+                  fugit sed distinctio nostrum?
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Testimonial Block -->
+    <section class="block">
+      <header class="block__header">
+        <h2>What out Customers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nemo
+          facilis, assumenda a architecto sint.
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="Moshify/images/testimonial.jpg"
+                alt="A happy smile man"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use href="Moshify/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Inventore nostrum perferendis ullam! Numquam accusamus quis
+                delectus ducimus eligendi doloremque enim.
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote--icon">
+                      <use href="Moshify/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body quote__body">
+                    <h3 class="media__title quote__author">John Smith</h3>
+                    <p class="quote__organization">ABC Company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 1</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="Moshify/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Website Hosting</a></li>
+              <li><a href="#">Free Automated Wordpress</a></li>
+              <li><a href="#">Migrations</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 2</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="Moshify/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            soluta.
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 3</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="Moshify/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            soluta.
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 4</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="Moshify/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            soluta.
+          </div>
+        </section>
+        <div class="footer__brand">
+          <img src="Moshify/images/logo.png" alt="Moshify's logo" />
+          <p class="footer__copyright">Copyright 2020 mosh</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
